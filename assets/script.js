@@ -110,14 +110,14 @@ var generatePassword = function () {
       }
 
       case 1: { // Generate random uppercase letter
-        // finding a random char in the alphabet variable and changing it to a lowercase
+        // finding a random char in the alphabet variable and changing it to a uppercase
         tempPassword += (alphabet[getRandomInt(alphabet.length)].toUpperCase());
         console.log("upper");
         break;
       }
 
       case 2: { // Generate random number
-        tempPassword += getRandomInt(9); // generates 0 - 9
+        tempPassword += getRandomInt(10); // generates 0 - 9
         break;
       }
 
