@@ -112,7 +112,6 @@ var generatePassword = function () {
       case 1: { // Generate random uppercase letter
         // finding a random char in the alphabet variable and changing it to a uppercase
         tempPassword += (alphabet[getRandomInt(alphabet.length)].toUpperCase());
-        console.log("upper");
         break;
       }
 
